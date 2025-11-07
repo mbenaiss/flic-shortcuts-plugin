@@ -10,10 +10,6 @@
             "fileName": "shortcuts/keyboard/transcription.sh"
         },
         {
-            "actionName": "Quick Transcription (AppleScript)",
-            "fileName": "shortcuts/keyboard/transcription-applescript.sh"
-        },
-        {
             "actionName": "Mute/Unmute Microphone",
             "fileName": "shortcuts/system/mute-mic.sh"
         },

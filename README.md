@@ -43,7 +43,7 @@ A powerful and flexible keyboard shortcut system for Flic buttons on macOS. Crea
 
 1. **Quick Transcription** (Ctrl+Shift+W)
    - Trigger transcription with keyboard shortcut
-   - Available in both cliclick and AppleScript versions
+   - Configure the same shortcut in your transcription app
 
 2. **Mute/Unmute Microphone**
    - Toggle microphone mute state
@@ -155,8 +155,7 @@ Keyboard Shortcuts.FlicPlugin/
 ├── shortcuts/                     # All shortcut scripts
 │   ├── shortcut-config.json      # Centralized shortcuts config
 │   ├── keyboard/                 # Keyboard shortcut scripts
-│   │   ├── transcription.sh
-│   │   └── transcription-applescript.sh
+│   │   └── transcription.sh
 │   ├── system/                   # System command scripts
 │   │   ├── mute-mic.sh
 │   │   └── switch-to-wireless-mic.sh
