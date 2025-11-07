@@ -1,0 +1,93 @@
+{
+  "description": "Keyboard key mappings for macOS shortcuts",
+  "version": "1.0.0",
+  "modifiers": {
+    "cmd": {
+      "applescript": "command down",
+      "cliclick": "cmd",
+      "keycode": "⌘"
+    },
+    "ctrl": {
+      "applescript": "control down",
+      "cliclick": "ctrl",
+      "keycode": "⌃"
+    },
+    "opt": {
+      "applescript": "option down",
+      "cliclick": "option",
+      "keycode": "⌥"
+    },
+    "shift": {
+      "applescript": "shift down",
+      "cliclick": "shift",
+      "keycode": "⇧"
+    }
+  },
+  "keys": {
+    "letters": {
+      "a": {"keycode": 0, "char": "a"},
+      "b": {"keycode": 11, "char": "b"},
+      "c": {"keycode": 8, "char": "c"},
+      "d": {"keycode": 2, "char": "d"},
+      "e": {"keycode": 14, "char": "e"},
+      "f": {"keycode": 3, "char": "f"},
+      "g": {"keycode": 5, "char": "g"},
+      "h": {"keycode": 4, "char": "h"},
+      "i": {"keycode": 34, "char": "i"},
+      "j": {"keycode": 38, "char": "j"},
+      "k": {"keycode": 40, "char": "k"},
+      "l": {"keycode": 37, "char": "l"},
+      "m": {"keycode": 46, "char": "m"},
+      "n": {"keycode": 45, "char": "n"},
+      "o": {"keycode": 31, "char": "o"},
+      "p": {"keycode": 35, "char": "p"},
+      "q": {"keycode": 12, "char": "q"},
+      "r": {"keycode": 15, "char": "r"},
+      "s": {"keycode": 1, "char": "s"},
+      "t": {"keycode": 17, "char": "t"},
+      "u": {"keycode": 32, "char": "u"},
+      "v": {"keycode": 9, "char": "v"},
+      "w": {"keycode": 13, "char": "w"},
+      "x": {"keycode": 7, "char": "x"},
+      "y": {"keycode": 16, "char": "y"},
+      "z": {"keycode": 6, "char": "z"}
+    },
+    "numbers": {
+      "0": {"keycode": 29, "char": "0"},
+      "1": {"keycode": 18, "char": "1"},
+      "2": {"keycode": 19, "char": "2"},
+      "3": {"keycode": 20, "char": "3"},
+      "4": {"keycode": 21, "char": "4"},
+      "5": {"keycode": 23, "char": "5"},
+      "6": {"keycode": 22, "char": "6"},
+      "7": {"keycode": 26, "char": "7"},
+      "8": {"keycode": 28, "char": "8"},
+      "9": {"keycode": 25, "char": "9"}
+    },
+    "special": {
+      "space": {"keycode": 49, "char": " "},
+      "return": {"keycode": 36, "char": "\\n"},
+      "tab": {"keycode": 48, "char": "\\t"},
+      "delete": {"keycode": 51, "char": ""},
+      "escape": {"keycode": 53, "char": ""},
+      "left": {"keycode": 123, "char": ""},
+      "right": {"keycode": 124, "char": ""},
+      "down": {"keycode": 125, "char": ""},
+      "up": {"keycode": 126, "char": ""}
+    }
+  },
+  "examples": {
+    "cmd+shift+w": {
+      "applescript": "tell application \"System Events\" to keystroke \"w\" using {command down, shift down}",
+      "cliclick": "cliclick kd:cmd,shift t:w ku:cmd,shift"
+    },
+    "ctrl+shift+w": {
+      "applescript": "tell application \"System Events\" to keystroke \"w\" using {control down, shift down}",
+      "cliclick": "cliclick kd:ctrl,shift t:w ku:ctrl,shift"
+    },
+    "opt+space": {
+      "applescript": "tell application \"System Events\" to keystroke \" \" using {option down}",
+      "cliclick": "cliclick kd:option t:space ku:option"
+    }
+  }
+}

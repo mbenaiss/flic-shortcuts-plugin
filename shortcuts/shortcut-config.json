@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "description": "Centralized configuration for all shortcuts",
+  "shortcuts": [
+    {
+      "id": "transcription",
+      "name": "Quick Transcription",
+      "category": "keyboard",
+      "type": "keyboard",
+      "keys": ["ctrl", "shift", "w"],
+      "description": "Trigger transcription with Ctrl+Shift+W",
+      "scriptPath": "shortcuts/keyboard/transcription.sh",
+      "enabled": true,
+      "notes": "Configure the same shortcut in your transcription app settings"
+    },
+    {
+      "id": "mute_mic",
+      "name": "Mute/Unmute Microphone",
+      "category": "system",
+      "type": "system_command",
+      "description": "Toggle microphone mute/unmute using system volume control",
+      "scriptPath": "shortcuts/system/mute-mic.sh",
+      "enabled": true
+    },
+    {
+      "id": "switch_wireless_mic",
+      "name": "Switch to Wireless Microphone",
+      "category": "system",
+      "type": "system_command",
+      "description": "Change audio input device to wireless microphone",
+      "scriptPath": "shortcuts/system/switch-to-wireless-mic.sh",
+      "enabled": true
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-11-07",
+    "author": "Shortcut System",
+    "totalShortcuts": 3
+  }
+}

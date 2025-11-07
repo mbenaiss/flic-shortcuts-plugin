@@ -1,0 +1,25 @@
+{
+    "pluginName": "Keyboard Shortcuts",
+    "pluginDescription": "Trigger custom keyboard shortcuts and system actions",
+    "pluginReadMore": "A flexible shortcut system for Flic buttons. Easily create and manage custom shortcuts:\n\n- Keyboard shortcuts (native or cliclick)\n- System commands and controls\n- Application launchers\n- Audio device management\n\nSee shortcuts/shortcut-config.json for all available shortcuts, or use tools/shortcut-generator.sh to create new ones.",
+    "protocolVersion": 1,
+    "actions":
+    [
+        {
+            "actionName": "Quick Transcription",
+            "fileName": "shortcuts/keyboard/transcription.sh"
+        },
+        {
+            "actionName": "Quick Transcription (AppleScript)",
+            "fileName": "shortcuts/keyboard/transcription-applescript.sh"
+        },
+        {
+            "actionName": "Mute/Unmute Microphone",
+            "fileName": "shortcuts/system/mute-mic.sh"
+        },
+        {
+            "actionName": "Switch to Wireless Microphone",
+            "fileName": "shortcuts/system/switch-to-wireless-mic.sh"
+        }
+    ]
+}
